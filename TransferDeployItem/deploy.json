@@ -1,0 +1,63 @@
+{
+    "approvals": [
+        {
+            "signature": "01e50697e4a9d0d5c8e43470fdec8d731a0bfc27ac5a4c8ce1ac4f8c0baff744d10a8aaf74d393371332ea649ecd51375ab9d292c047b203fffbe81fc1db029b03",
+            "signer": "0152836c51eac04205bb7febe9d92da50758178b0bf388bd03e1da13147b99e2c5"
+        }
+    ],
+    "hash": "913b796bc2cf712b37d6d913273be876cb1a7da002bb3dd58f351f4d9b9983dd",
+    "header": {
+        "account": "0152836c51eac04205bb7febe9d92da50758178b0bf388bd03e1da13147b99e2c5",
+        "body_hash": "66d357578ada83fdb78560e4b983edaed0d7486a7254264eb7f29403fad4ff58",
+        "chain_name": "casper-test",
+        "dependencies": [],
+        "gas_price": 1,
+        "timestamp": "2023-08-15T09:49:05.581Z",
+        "ttl": "30m"
+    },
+    "payment": {
+        "ModuleBytes": {
+            "module_bytes": "",
+            "args": [
+                [
+                    "amount",
+                    {
+                        "cl_type": "U512",
+                        "bytes": "0400e1f505"
+                    }
+                ]
+            ]
+        }
+    },
+    "session": {
+        "Transfer": {
+            "args": [
+                [
+                    "amount",
+                    {
+                        "cl_type": "U512",
+                        "bytes": "0400f90295"
+                    }
+                ],
+                [
+                    "target",
+                    {
+                        "cl_type": {
+                            "ByteArray": 32
+                        },
+                        "bytes": "ab32c6ed39f43ff55febd0e3e8baa31c84929c1bf50a2b48186d6f286e531145"
+                    }
+                ],
+                [
+                    "id",
+                    {
+                        "cl_type": {
+                            "Option": "U64"
+                        },
+                        "bytes": "017b00000000000000"
+                    }
+                ]
+            ]
+        }
+    }
+}
